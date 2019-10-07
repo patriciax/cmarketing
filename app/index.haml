@@ -1,0 +1,556 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "UTF-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name:"viewport"}/
+    %title Contact Marketing
+    %link{:href => "assets/img/portafolio/favico.png", :rel => "icon", :type => "image/png"}/
+    %link{rel: "stylesheet", href:"assets/css/bootstrap.min.css"}/
+    %link{rel: "stylesheet", href:"assets/css/main.css"}/
+    %link{rel: "stylesheet", href:"assets/css/slick.css"}/
+    %link{rel: "stylesheet", href:"assets/css/slick-theme.css"}/
+    %link{rel: "stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}/
+    %link{rel: "stylesheet", href:"assets/fonts/flaticon.css"}/
+    %link{rel: "stylesheet", href:"assets/cssanimation.css"}/
+    %link{rel: "stylesheet", href:"assets/animate.css"}/
+  %body
+    %header#home
+      %nav.navbar.navbar-expand-lg.fixed-top.navbar-fixed-js
+        .container
+          .main-brand
+            %a.navbar-brand{:href => "#"}
+              %img#iso{:src => "assets/img/logo-color.png"}/
+            %button.navbar-toggler.p-2.border-0.hamburger.hamburger--elastic.ml-autos{"data-toggle" => "offcanvas", :type => "button"}
+              %span.hamburger-box
+                %span.hamburger-inner
+          .navbar-collapse.offcanvas-collapse
+            %ul.navbar-nav.mr-autos
+              %li.nav-item.active
+                %a.nav-link.active{:href => "#home"} Inicio
+              %li.nav-item
+                %a.nav-link{:href => "#services"} Servicios
+              %li.nav-item
+                %a.nav-link{:href => "#about"} Sobre nosotros
+              %li.nav-item
+                %a.nav-link{:href => "#portfolio"} Proyectos
+              %li.nav-item
+                %a.nav-link{:href => "#team"} Equipo
+              -# %li.nav-item
+              -#   %a.nav-link{:href => "#"} Blog
+              %li.nav-item
+                %a.nav-link{:href => "#contact"} Contáctanos
+    .main-banner
+      .main-banner__content
+        .main-banner__items
+          .main-banner__item
+            .main-banner__text
+              .main-banner__title
+                %h2.typewrite{"data-period" => "2000", "data-type" => "[ \"Potencia tu negocio con Marketing digital\", \"Aumenta tu ROI y llega a más clientes \", \"Eficiencia y eficacia en Marketing de Performance \" ]"}
+                %span.wrap
+                
+              .main-banner__title__responsive
+                %h2 Potencia tu negocio con Marketing digital
+                
+
+              .main-banner__btn.btn-box
+                %button.btn_custom.btn--large.btn--filled{"data-target" => "#exampleModal", "data-toggle" => "modal", :type => "button"}
+                  Contáctanos
+            .main-banner__boximg
+              .main-banner__img
+                %img{ :src => "assets/img/banner-ilustreichosvg.svg"}/
+              .main-banner__img--two
+                %img{ :src => "assets/img/Rectángulo 1 copia 7.png"}/
+        
+    %section.main-services#services
+      .container
+        .main-general__title
+          %p.animated.wow.fadeInUp Servicios
+        .main-services__content
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Redes Sociales
+              .main-services__img
+                %span.flaticon-like
+            .main-services__description
+              %p Creación de contenido, manejo y diseño de piezas para redes sociales.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Medios Digitales
+              .main-services__img
+                %span.flaticon-ecommerce
+            .main-services__description
+              %p Inversión en Google Ads, Facebook Ads y otros medios digitales.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Business Intelligence
+              .main-services__img
+                %span.flaticon-think
+            .main-services__description
+              %p Inteligencia de negocios aplicada principalmente al marketing digital. Aumentando trazabilidad de los proyectos y detalle funner de conversión.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Chat Bot
+              .main-services__img
+                %span.flaticon-bot
+            .main-services__description
+              %p Creación de asistentes inteligentes ya sea para atención al cliente u orientada a la conversión.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Email Marketing
+              .main-services__img
+                %span.flaticon-mail
+            .main-services__description
+              %p Campañas masivas de emailing informativo, transaccional o con otros fines.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Sitios Web
+              .main-services__img
+                %span.flaticon-browser
+            .main-services__description
+              %p Creación, optimización y mantenimiento de sitios web responsive, Landing Page, E-commerce.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p SMS Corporativo
+              .main-services__img
+                %span.flaticon-sms
+            .main-services__description
+              %p Envío masivo de SMS mediante una plataforma segura y eficiente.
+          .main-services__item
+            .main-services__box
+              .main-services__title
+                %p Diseño Gráfico
+              .main-services__img
+                %span.flaticon-pen
+            .main-services__description
+              %p Imagen corporativa, diseño editorial, comunicación visual.
+        .main-services__img--box
+          .main-services__img-float
+            %img{ :src => "assets/img/Rectángulo 1 copia 7.png"}/
+
+    %section.main-cta
+      %img.animation.particle-1(src="assets/img/aaaaRectángulo 1 copia 7.png" alt="")/
+      %img.animation.particle-1--right(src="assets/img/aaaaRectángulo 1 copia 7.png" alt="")/
+      %img.animation.particle-5.custom-animation4(src="assets/img/bg-s3-4.png" alt="")/
+      %img.animation.particle-6__cta.custom-animation4(src="assets/img/Rectángulo 1 copia 6.png" alt="")/
+      %img.animation.particle-4(src="assets/img/bg-s3-2.png" alt="")/
+      %img.animation.particle-4--left(src="assets/img/bg-s3-2.png" alt="")/
+      %img.animation.particle-7__cta.custom-animation2(src="assets/img/Rectángulo 1 copia 5.png" alt="")/
+      .container
+        .main-cta__content
+          .main-cta__item
+            .main-cta__text
+              %p Invierte en marketing de perdormance y potencia tus acciones
+              .main-cta__btn
+                %button.btn_custom.btn--large.btn--filled{"data-target" => "#exampleModal", "data-toggle" => "modal", :type => "button"}
+                  Contáctanos
+          .main-cta__item
+            .main-cta__boximg
+              .main-cta__img
+                %img{ :src => "assets/img/ilustreicho.svg"}/
+              .main-cta__img--two
+                %img{ :src => "assets/img/Rectángulo 1 copia 7.png"}/
+    %section.main-about#about
+      .main-general__title.main-general__title--about
+        %p Sobre Nosotros
+      .main-about__content
+        .main-about__item
+          .main-about__box
+            .main-about__title
+              %p Misión
+            .main-about__description
+              %p  Satisfacer las necesidades de nuestros clientes de forma eficaz y eficiente ofreciendo soluciones progresivas de marketing y publicidad, que permitan mejorar la capacidad y producción logrando el crecimiento organizacional de todos nuestros clientes de manera que logren sus objetivos en el menor tiempo posible con la menor cantidad de recursos. 
+        .main-about__item.main-about__item--right
+          .main-about__box
+            .main-about__title
+              %p Visión
+            .main-about__description
+              %p  Asegurarnos como la empresa líder en la industria digital, conservando un nivel de demanda con procesos de mejora continua, apoyados en la originalidad, calidad y atención al cliente,  logrando los objetivos pautados de la mejor manera sin traspasar algún tipo de riesgo, asumiéndolos de la mano de nuestros usuarios para así potenciar cada proyecto tangible.
+      .main-about__boximg
+        .main-about__img 
+          %img{ :src => "assets/img/Logo_white.png"}/ 
+    %section.main-portfolio#portfolio
+      .container
+        .main-general__title.main-general__title--projects
+          %p Portafolio
+        .main-portfolio__content
+          %ul#pills-tab.nav.nav-pills.mb-3{:role => "tablist"}
+            %li.nav-item
+              %a#pills-home-tab.nav-link.active{"aria-controls" => "pills-home", "aria-selected" => "true", "data-toggle" => "pill", :href => "#pills-home", :role => "tab"} Desarrollo web
+            %li.nav-item
+              %a#pills-profile-tab.nav-link{"aria-controls" => "pills-profile", "aria-selected" => "false", "data-toggle" => "pill", :href => "#pills-profile", :role => "tab"} Branding
+            -# %li.nav-item
+            -#   %a#pills-contact-tab.nav-link{"aria-controls" => "pills-contact", "aria-selected" => "false", "data-toggle" => "pill", :href => "#pills-contact", :role => "tab"}  Social
+          #pills-tabContent.tab-content
+            #pills-profile.tab-pane.fade{"aria-labelledby" => "pills-profile-tab", :role => "tabpanel"} 
+              .container
+                .main-portfolio__grid--branding
+                  .main-portfolio__item
+                    .main-portfolio__img 
+                      %img{ :src => "assets/img/portafolio/806624151_262407.jpg"}/ 
+                  .main-portfolio__item
+                    .main-portfolio__img 
+                      %img{ :src => "assets/img/portafolio/carla.png"}/  
+                  .main-portfolio__item
+                    .main-portfolio__img 
+                      %img{ :src => "assets/img/portafolio/contact.jpeg"}/ 
+                  .main-portfolio__item
+                    .main-portfolio__img 
+                      %img{ :src => "assets/img/portafolio/photo4918097275067148355.jpg"}/ 
+                -# .main-cta__btn
+                -#   %a.btn_custom.btn--large.btn--filled{ :href=>""}
+                -#     Todos los proyectos
+        
+                
+            #pills-home.tab-pane.fade.show.active{"aria-labelledby" => "pills-home-tab", :role => "tabpanel"}
+              .container
+                .main-portfolio__grid
+                  .main-portfolio__item
+                    %a{ :href=>"http://banqueteriaflorence.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/1.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://rymedsolucionesmedicas.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/2.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://clinicavitalmed.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/3.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://fuerzadeventaremota.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/4.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"https://www.reservanativachiloe.cl/", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/portafolio/reserva.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"https://lacajadepati.com/", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/portafolio/paty.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"https://ecokclimatizacion.cl/", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/portafolio/eko.png"}/ 
+                -# .main-cta__btn
+                -#   %a.btn_custom.btn--large.btn--filled{ :href=>""}
+                -#     Todos los proyectos
+        
+            #pills-contact.tab-pane.fade{"aria-labelledby" => "pills-contact-tab", :role => "tabpanel"}
+              .container
+                .main-portfolio__grid--social
+                  .main-portfolio__item
+                    %a{ :href=>"http://banqueteriaflorence.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/1.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://rymedsolucionesmedicas.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/2.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://clinicavitalmed.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/3.png"}/ 
+                  .main-portfolio__item
+                    %a{ :href=>"http://fuerzadeventaremota.cl", :target=>"_blank"}
+                      .main-portfolio__img 
+                        %img{ :src => "assets/img/4.png"}/ 
+                -# .main-cta__btn
+                -#   %a.btn_custom.btn--large.btn--filled{ :href=>""}
+                -#     Todos los proyectos
+               
+
+    %section.main-equipo#team
+      %img.animation.particle-3.custom-animation11(src="assets/img/hexagono.png" alt="")/
+      %img.animation.particle-2.custom-animation4(src="assets/img/hexa.png" alt="")/
+
+      %img.animation.particle-3__team.custom-animation11(src="assets/img/hexagono.png" alt="")/
+      %img.animation.particle-2__team.custom-animation4(src="assets/img/hexa.png" alt="")/
+        
+      .main-general__title.main-general__title--team
+        %p Nuestro Team
+      .main__team
+        .slider.slider-for__team
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p¡Hola soy Matias Tello!
+              .main-content__subtitle
+                %p Director Digital
+                %p -Fundador
+                %p -Emprendedor
+                %p -Ingeniero Comercial
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/MATIAS-TELLO.png" alt="")/
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Yonnys Quintero!
+              .main-content__subtitle
+                %p Director de proyectos
+                %p -Co fundador
+                %p -Emprendedor unico y especial
+                %p -Ingeniero de sitemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/YONNYS-QUINTERO.jpg" alt="")/
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Gladibeth Franco!
+              .main-content__subtitle
+                %p Desarrollador frontend
+                -# %p -
+                %p -La estrella del equipo
+                %p -Ingeniero de sistemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/GLADIBETH-FRANCO.jpg" alt="")/
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Genesis Navas!
+              .main-content__subtitle
+                %p Desarrollador frontend
+                %p -Mente creativa
+                -# %p -
+                %p -Ingeniero de sistemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/GENESIS-NAVAS.png" alt="")/
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Yively Alvarez!
+              .main-content__subtitle
+                %p Cordinador de desarrollo
+                %p -Soluciones innovadoras
+                -# %p -
+                %p -Ingeniero de sistemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/YIVELY-ALVAREZ.jpg" alt="")/
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Francisca Tello!
+              .main-content__subtitle
+                %p Redactora
+                -# %p -
+                -# %p -
+                -# %p -Ingeniero de sistemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/FRANCISCA-TELLO.jpeg" alt="")/
+
+          .main-content__person
+            .main-content__description
+              .main-content__title
+                %p ¡Hola soy Jesús Saavedra!
+              .main-content__subtitle
+                %p Community Manager
+                -# %p -
+                -# %p -
+                -# %p -Ingeniero de sistemas
+              -# .main-content__redes
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-facebook 
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-twitter
+              -#   %a{ href: '#' }
+              -#     %i.fa.fa-linkedin
+            .main-content__img
+              %img(src="assets/img/IMG_20190905_080825-01.jpeg" alt="")/
+        .slider.slider-nav__team
+          %div
+            %img(src="assets/img/MATIAS-TELLO.png" alt="")/
+          %div
+            %img(src="assets/img/YONNYS-QUINTERO.jpg" alt="")/
+          %div
+            %img(src="assets/img/GLADIBETH-FRANCO.jpg" alt="")/
+          %div
+            %img(src="assets/img/GENESIS-NAVAS.png" alt="")/
+          %div
+            %img(src="assets/img/YIVELY-ALVAREZ.jpg" alt="")/
+          %div
+            %img(src="assets/img/FRANCISCA-TELLO.jpeg" alt="")/
+          %div
+            %img(src="assets/img/IMG_20190905_080825-01.jpeg" alt="")/
+          -# %div
+          -#   %img(src="assets/img/team-4.jpg" alt="")/
+    %section.main-clientes
+      .main-general__title.main-general__title--clientes
+        %p Clientes
+      .main_clientes.container
+        .clients__img
+          %img(src="assets/img/logo-color.png" alt="")/
+        .clients__img
+          %img(src="assets/img/Logo_wxhite.png" alt="")/
+        .clients__img
+          %img(src="assets/img/logo-color.png" alt="")/
+        .clients__img
+          %img(src="assets/img/Logo_wxhite.png" alt="")/
+        .clients__img
+          %img(src="assets/img/logo-color.png" alt="")/
+
+
+    %footer.main-footer#contact
+      .container
+        .main-general__title.main-general__title--footer
+          %p Conversemos
+        %img.animation.particle-1(src="assets/img/aaaaRectángulo 1 copia 7.png" alt="")/
+        %img.animation.particle-1--right(src="assets/img/aaaaRectángulo 1 copia 7.png" alt="")/
+        %img.animation.particle-5.custom-animation4(src="assets/img/bg-s3-4.png" alt="")/
+        %img.animation.particle-6.custom-animation4(src="assets/img/Rectángulo 1 copia 6.png" alt="")/
+        %img.animation.particle-4(src="assets/img/bg-s3-2.png" alt="")/
+        %img.animation.particle-4--left(src="assets/img/bg-s3-2.png" alt="")/
+        %img.animation.particle-7(src="assets/img/Rectángulo 1 copia 5.png" alt="")/
+        .container
+        
+          .main-contact__content
+            .main-contact__box
+              -# %p.conversemos Conversemos
+              %form
+                .row
+                  .col.col-12.col-lg-6.col-sm-6
+                    %input.form-control{:placeholder => "Nombre ", :type => "text"}/
+                  .col.col-12.col-lg-6.col-sm-6
+                    %input.form-control{:placeholder => "Teléfono", :type => "phone"}/
+                .row
+                  .col.col-12.col-lg-6.col-sm-6
+                    %input.form-control{:placeholder => "Email", :type => "email"}/
+                  .col.col-12.col-lg-6.col-sm-6
+                    %input.form-control{:placeholder => "Servicio", :type => "text"}/
+
+                %textarea#comment.form-control{:placeholder => "Mensaje",:rows => "5"}
+                .main-cta__btn
+                  %a.btn_custom.btn--large.btn--filled-blue{ :href=>""}
+                    Enviar
+                        
+        .main-footer__box
+          .main-footer__boximg
+            .main-footer__img 
+              %img{ :src => "assets/img/footer.png"}/
+          .main-footer__content
+            .main-footer__item
+              .main-footer__info
+                %ul
+                  %li Somos Una Empresa dedicada al Marketing Digital con el foco en la performance de nuestros clientes, nuestro principal objetivo es lograr las metas propuestas de forma eficiente y eficaz asumiendo junto a nuestros clientes el riesgo de cada proyecto.
+            .main-footer__info
+              %ul.main-contact__ul      
+                %li
+                  %a.main-contact__link{ href: 'mailto:mtello@contactmarketing.cl', :target=>"_blank" }
+                    %i.fa.fa-envelope
+                    %p mtello@contactmarketing.cl
+                %li
+                  %a.main-contact__link{ href: '' ,:target=>"_blank" }
+                    %i.fa.fa-location-arrow
+                    %p Avenida apoquindo 6410, oficina 605, Las Condes  
+                %li
+                  %a.main-contact__link{ href: 'tel:56933985125', :target=>"_blank" }
+                    %i.fa.fa-phone
+                    %p +569 3398 5125
+              -# %ul
+              -#   %li
+              -#     %a{:href=>"mailto:mtello@contactmarketing.cl"} mtello@contactmarketing.cl
+              -#   %li
+              -#     %a{:href=>"tel:56933985125"} +569 3398 5125
+              -#   %li
+              -#     %a{:href=>"#"} Avenida apoquindo 6410, oficina 605, Las Condes    
+
+            .main-footer__item
+              .main-footer__redes
+                %a{ href: 'https://www.facebook.com/Contact-Marketing-904814839714398', :target=>"_blank"  }
+                  %img{ :src => "assets/img/facebook-letter-logo.png" }/
+                %a{ href: 'https://www.linkedin.com/company/35679504', :target=>"_blank" }
+                  %img{ :src => "assets/img/linkedin-logo.png"}/
+                %a{ href: 'https://www.instagram.com/contactmarketing/' , :target=>"_blank"}
+                  %img{ :src => "assets/img/instagram.png"}/
+              .main-cta__btn.main-cta__btn--left
+                %button.btn_custom.btn--large.btn--filled{"data-target" => "#exampleModal", "data-toggle" => "modal", :type => "button"}
+                  Contáctanos
+                  
+              
+          .main-footer__copy
+            %p
+              %a{:href =>"http://cmarketing.cl/"}
+                Contact Marketing | 
+              Todos los derechos Reservados
+    / Modal
+    #exampleModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLabel", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog{:role => "document"}
+        .modal-content
+          .modal-header
+            %h5#exampleModalLabel.modal-title Puedes contactarnos
+            %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+              %span{"aria-hidden" => "true"} ×
+          .modal-body
+            %form
+              .row
+                .col
+                  %input.form-control{:placeholder => "Nombre ", :type => "text"}/
+                .col
+                  %input.form-control{:placeholder => "Teléfono", :type => "phone"}/
+              .row
+                .col
+                  %input.form-control{:placeholder => "Email", :type => "email"}/
+                .col
+                  %input.form-control{:placeholder => "Servicio", :type => "text"}/
+
+              %textarea#comment.form-control{:placeholder => "Mensaje",:rows => "5"}
+              .btn-box.float-right
+                %a.btn_custom.btn--large.btn--filled-blue{ :href=>""}
+                  Enviar
+                        
+    %script{src: "assets/js/jquery.min.js"}
+    %script{src: "assets/js/bootstrap.min.js"}
+    %script{src: "assets/js/slick.min.js"}
+    %script{src: "assets/js/setting-slick.js"}
+    %script{src: "assets/js/main.js"}
+    %script{src: "assets/js/cssanimation-gsap.min.js"}
+    %script{src: "assets/js/wow.min.js"}
+    %script{src: "https://apps.elfsight.com/p/platform.js"}
